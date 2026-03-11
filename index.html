@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/app.css">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+
+  <div class="main">
+    <!-- card -->
+    <div class="card">
+      <!-- left column -->
+      <div class="left_col text_center">
+        <!-- Left wrapper -->
+        <div class="left_wrapper">
+          <h6 class="fs_24 lavender_text">Your Result</h6>
+
+          <!-- Score circle -->
+          <div class="score">
+            <p class="text_white fs_70 fw_700 counter">76</p>
+            <p class="lavender_text">of 100</p>
+          </div>
+          <!-- Score circle -->
+          <h2 class="text_white">Great</h2>
+          <p class="lavender_text">You scored higher than 65% of the people who have taken these tests.</p>
+          <!-- Left wrapper -->
+        </div>
+      </div>
+      <!-- left column -->
+
+      <!-- right column -->
+      <div class="right_col">
+        <!-- Right wrapper -->
+        <div class="right_wrapper">
+          <h6 class="fs_24 text_start text_dark">Summary</h6>
+
+          <!-- Result detail -->
+          <div class="result_detail bg_light_red">
+            <!--  -->
+            <div class="col">
+              <img src="assets/images/icon-reaction.svg" alt="Reaction image">
+              <span class="mx_1 text_red">Reaction</span>
+            </div>
+            <div class="col fw_700">
+              <p><span class="text_dark counter">80</span> <span class="lavender_text">/ 100</span></p>
+            </div>
+            <!--  -->
+          </div>
+
+          <!--  -->
+          <div class="result_detail bg_orangey_yellow">
+            <div class="col">
+              <img src="assets/images/icon-memory.svg" alt="Reaction image">
+              <span class="mx_1 text_yellow">Memory</span>
+            </div>
+            <div class="col fw_700">
+              <p><span class="text_dark counter">92</span> <span class="lavender_text">/ 100</span></p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="result_detail bg_green_teal">
+            <div class="col">
+              <img src="assets/images/icon-verbal.svg" alt="Reaction image">
+              <span class="mx_1 text_green">Verbal</span>
+            </div>
+            <div class="col fw_700">
+              <p><span class="text_dark counter">62</span> <span class="lavender_text">/ 100</span></p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="result_detail bg_cobalt_blue">
+            <div class="col">
+              <img src="assets/images/icon-visual.svg" alt="Reaction image">
+              <span class="mx_1 text_cobalt">Visual</span>
+            </div>
+            <div class="col fw_700">
+              <p><span class="text_dark counter">73</span> <span class="lavender_text">/ 100</span></p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- Result detail -->
+
+          <!-- Continue button -->
+          <button class="btn_continue fs_18 fw-600">Continue</button>
+        </div>
+        <!-- Right wrapper -->
+      </div>
+      <!-- right column -->
+    </div>
+    <!-- card -->
+  </div>
+
+
+  <!-- Js -->
+  <script src="https://cdn.jsdelivr.net/npm/counterup2@2.0.2/dist/index.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+</body>
+
+
+
+</html>
